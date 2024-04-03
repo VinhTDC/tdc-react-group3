@@ -1,8 +1,11 @@
 import './App.css';
-import MapEmbed from './components/MapEmbed'; 
+import Banner from './components/banner';
+import MapEmbed from './components/MapEmbed';
+
 function App() {
   return (
     <div>
+      <Banner />
       <MapEmbed />
     </div>
   );
