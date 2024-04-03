@@ -2,7 +2,7 @@
 import "./App.css";
 import Header from "./components/Header";
 import MapEmbed from "./components/MapEmbed";
-import Banner  from "./components/banner";
+import Banner  from "./components/Banner";
 function App() {
   return (
     <div>
