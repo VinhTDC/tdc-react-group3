@@ -1,3 +1,4 @@
+
 import React from "react";
 import "./App.css";
 import Header from "./components/Header";
@@ -8,12 +9,11 @@ import Customer from "./components/Customer" ;
 function App() {
   return (
     <div>
+       <Header />
       <Banner />
-      <Header />
       <About />
       <Customer/>
       <MapEmbed />
-      
     </div>
   );
 }
