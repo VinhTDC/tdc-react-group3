@@ -12,7 +12,7 @@ function App() {
       <Header />
       <About />
       <Customer/>
-      {/* <MapEmbed /> */}
+      <MapEmbed />
       
     </div>
   );
