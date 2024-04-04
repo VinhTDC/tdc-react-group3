@@ -1,3 +1,4 @@
+
 import React from "react";
 import "./App.css";
 import Header from "./components/Header";
@@ -9,13 +10,20 @@ import Footer from "./components/footer";
 function App() {
   return (
     <div>
+<<<<<<< HEAD
       <Header />
+=======
+       <Header />
+>>>>>>> d011bee55fa6ce1e2c29d4a1d6cb466537097c86
       <Banner />
       <About />
       <Customer />
       <MapEmbed />
+<<<<<<< HEAD
       <Footer />
 
+=======
+>>>>>>> d011bee55fa6ce1e2c29d4a1d6cb466537097c86
     </div>
   );
 }
