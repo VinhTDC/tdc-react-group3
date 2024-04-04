@@ -7,16 +7,15 @@ import MapEmbed from "./components/MapEmbed";
 import Banner from "./components/banner";
 import About from "./components/About"; 
 import Customer from "./components/Customer" ;
-import Footer from "./components/Footer";
+import Footer from "./components/footer";
+import Products from "./components/Products";
 function App() {
   return (
 
     <div>
       <Header />
-       <Header />
       <Banner />
-      <About />
-      <Customer />
+      <Products/>
       <Customer />
       <About />
       <MapEmbed />
